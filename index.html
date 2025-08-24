@@ -20,7 +20,7 @@
 
 <body class="bg-gray-100 text-gray-800 min-h-screen flex flex-col">
     <!-- Cabeçalho -->
-    <header class="bg-[#1f2937]">
+    <header class="bg-zinc-900">
         <div class="container mx-auto px-4 py-6 flex justify-between items-center max-w-4xl">
             <!-- Logo na esquerda -->
             <div class="flex items-center">
@@ -36,16 +36,20 @@
             </nav>
         </div>
     </header>
+
     <main>
-        <div class="bg-[#1f2937]">
+        <div class="bg-zinc-900">
             <div class="flex flex-col md:flex-row items-center justify-between py-12 max-w-4xl mx-auto">
                 <!-- Texto e botão à esquerda -->
                 <div class="md:w-1/2 text-left">
-                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Shadow is cooler than Sonic</h1>
-                    <p class="text-lg md:text-xl text-gray-300 mb-8">I'm just saying.
-                    </p>
-                    <a href="#"
-                        class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300">I agree.</a>
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Shadow é mais legal que o Sonic.</h1>
+                    <p class="text-lg md:text-xl text-gray-300 mb-8">Só dizendo.</p>
+                    <div class="flex flex-row space-x-4">
+                        <a href="#"
+                            class="bg-red-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300">Concordo.</a>
+                        <a href="#"
+                            class="bg-red-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300">Não concordo.</a>
+                    </div>
                 </div>
                 <!-- Imagem à direita -->
                 <div class="md:w-1/2 flex justify-end mt-8 md:mt-0">
@@ -59,21 +63,50 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white p-6 rounded-lg shadow-md text-center">
                         <img src="src/whats-everyones-opinion-of-shadow-saying-that-sonic-might-v0-cG1scHBzdjczbHViMVv7fyTA8jz77Y07lkZ6Trq9WfB8_3vCG2BnWyBFu1EQ.webp"
-                            class="h-32 w-auto mx-auto mb-4 rounded-lg object-cover">
+                            class="h-32 w-full mx-auto mb-4 rounded-lg object-cover">
                         <h3 class="text-xl font-semibold mb-4">Forma de vida suprema</h3>
                         <p class="text-gray-600">Desde seu surgimento, é ressaltado que o Shadow foi criado como uma forma de vida suprema.</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                        <h3 class="text-xl font-semibold mb-4">Easy to Use</h3>
-                        <p class="text-gray-600">Intuitive design and comprehensive documentation for quick onboarding.</p>
+                        <img src="src/why-would-shadow-even-side-with-black-doom-for-anything-v0-qjry-1IDZ_83r2Hyv1_fbOajShWqu9s2JQ8Gzi353ds.webp"
+                            class="h-32 w-full mx-auto mb-4 rounded-lg object-cover">
+                        <h3 class="text-xl font-semibold mb-4">O pai dele é f#da.</h3>
+                        <p class="text-gray-600">E por consequência ele é f#dinha.</p>
                     </div>
                     <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                        <h3 class="text-xl font-semibold mb-4">Community Support</h3>
-                        <p class="text-gray-600">Join a vibrant community of developers and contributors.</p>
+                         <img src="src/Shadow_and_Rouge_-_Sonic_Generations.webp"
+                            class="h-32 w-full mx-auto mb-4 rounded-lg object-cover">
+                        <h3 class="text-xl font-semibold mb-4">Ele namora uma morcega gótica.</h3>
+                        <p class="text-gray-600">Isso é literalmente o sonho de todo homem.</p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <section class="bg-zinc-900 text-white py-12">
+            <div class="container mx-auto px-4 max-w-4xl text-center">
+                <h2 class="text-3xl font-bold mb-4">"Isso é como tirar doce de uma criança, o que não me faz mal nenhum."</h2>
+                <p class="text-lg mb-8 text-right">- Shadow, o ouriço.</p>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-4 py-12 max-w-4xl">
+            <div class="flex flex-col md:flex-row bg-red-600 p-6 rounded-lg shadow-md text-white justify-between">
+                <div><h2 class="text-3xl font-bold text-zinc-900">Quer saber mais?</h2>
+                <p class="mt-2 text-zinc-900">Confira os links para mais informações sobre Shadow.</p>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <a href="#"
+                        class="bg-zinc-900 text-white font-semibold py-3 px-6 rounded-lg hover:bg-gray-200 transition duration-300 text-center">Leia
+                        mais sobre Shadow</a>
+                </div>
+            </section>
+
+            <footer class="bg-zinc-900 text-white py-12 justify-center">
+            <div class="container mx-auto px-4 max-w-4xl text-center">
+                <p class="text-lg mb-8">Projeto desenvolvido para o The Odin Project por Cristian Oliveira, em 2025.</p>
+            </div>
+        </footer>
     </main>
 </body>
 
